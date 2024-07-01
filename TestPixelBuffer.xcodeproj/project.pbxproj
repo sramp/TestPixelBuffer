@@ -11,6 +11,8 @@
 		C632C5522C2F0B8E00015254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C632C5512C2F0B8E00015254 /* ContentView.swift */; };
 		C632C5542C2F0B8F00015254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C632C5532C2F0B8F00015254 /* Assets.xcassets */; };
 		C632C5572C2F0B8F00015254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C632C5562C2F0B8F00015254 /* Preview Assets.xcassets */; };
+		C632C55E2C2F0BB500015254 /* PixelBufferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C632C55D2C2F0BB500015254 /* PixelBufferView.swift */; };
+		C632C5602C2F0C4000015254 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C632C55F2C2F0C4000015254 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C632C5512C2F0B8E00015254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C632C5532C2F0B8F00015254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C632C5562C2F0B8F00015254 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C632C55D2C2F0BB500015254 /* PixelBufferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelBufferView.swift; sourceTree = "<group>"; };
+		C632C55F2C2F0C4000015254 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C632C54F2C2F0B8E00015254 /* TestPixelBufferApp.swift */,
 				C632C5512C2F0B8E00015254 /* ContentView.swift */,
+				C632C55D2C2F0BB500015254 /* PixelBufferView.swift */,
+				C632C55F2C2F0C4000015254 /* ViewModel.swift */,
 				C632C5532C2F0B8F00015254 /* Assets.xcassets */,
 				C632C5552C2F0B8F00015254 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				C632C5522C2F0B8E00015254 /* ContentView.swift in Sources */,
 				C632C5502C2F0B8E00015254 /* TestPixelBufferApp.swift in Sources */,
+				C632C5602C2F0C4000015254 /* ViewModel.swift in Sources */,
+				C632C55E2C2F0BB500015254 /* PixelBufferView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
